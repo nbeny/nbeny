@@ -97,6 +97,12 @@ Marketplace sociale de proximité fusionnant **réseau social, marketplace d'obj
 
 `NestJS 11` · `Next.js 16` · `GraphQL` · `Ory Kratos` · `Elasticsearch` · `Kafka` · `Temporal` · `Stripe`
 
+#### 📈 [BotTrading — Crypto Market Intelligence](https://github.com/nbeny/BotTrading)
+
+Plateforme **event-driven** de market intelligence crypto et de trading autonome : collecte temps réel (CoinGecko, DexScreener, réseaux sociaux, news), analyse d'opportunités déterministe + IA, scoring de risque, et **exécution sous garde-fous sur Kraken Futures** avec un opérateur humain dans la boucle. Terminal web de supervision et de contrôle.
+
+`Python` · `Kafka` · `PostgreSQL` · `Kraken Futures` · `Hugging Face` · `WebSocket`
+
 #### 🛰️ [AutoScanner](https://github.com/nbeny/AutoScanner)
 
 Plateforme de pentest / red-team mono-opérateur : découverte d'assets, orchestration sandboxée de ~100 outils Kali/ProjectDiscovery en conteneurs isolés, corrélation des findings inter-scanners, enrichissement CVE et reporting. Inclut **AutoHunt** — une boucle de chasse autonome où **Claude décide du prochain scanner** à lancer après chaque résultat (recon → énumération → vuln scan → injection).
