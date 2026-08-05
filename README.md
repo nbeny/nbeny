@@ -138,11 +138,24 @@ Infrastructure de contrôle à distance : agents **Rust** en reverse connection 
 
 ---
 
-### Stats
+### Langages les plus utilisés
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=nbeny&show_icons=true&hide_border=true&title_color=2563eb&icon_color=2563eb&count_private=true" alt="Stats GitHub de nbeny">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nbeny&layout=compact&hide_border=true&title_color=2563eb&langs_count=8" alt="Langages les plus utilisés">
+<p>
+  <img alt="TypeScript 61%" src="https://img.shields.io/badge/TypeScript-61%25-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
+  <img alt="C 13%" src="https://img.shields.io/badge/C-13%25-A8B9CC?style=for-the-badge&logo=c&logoColor=black">
+  <img alt="Python 13%" src="https://img.shields.io/badge/Python-13%25-3776AB?style=for-the-badge&logo=python&logoColor=white">
+</p>
+<p>
+  <img alt="JavaScript 9%" src="https://img.shields.io/badge/JavaScript-9%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+  <img alt="C# 2%" src="https://img.shields.io/badge/C%23-2%25-512BD4?style=for-the-badge&logo=csharp&logoColor=white">
+  <img alt="Rust 1%" src="https://img.shields.io/badge/Rust-1%25-CE422B?style=for-the-badge&logo=rust&logoColor=white">
+</p>
+
+<sub>Calculé sur mes dépôts publics et privés (hors dépendances vendored).</sub>
+
+<p align="left">
+  <img alt="Followers" src="https://img.shields.io/github/followers/nbeny?style=flat-square&label=Followers&color=2563eb">
+  <img alt="Stars" src="https://img.shields.io/github/stars/nbeny?style=flat-square&label=Stars&color=2563eb">
 </p>
 
 ---
