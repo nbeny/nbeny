@@ -87,17 +87,39 @@ Formé à l'**École 42 Paris**, certifié **AWS Cloud Practitioner**. Je travai
 
 ---
 
-### Projets
+### Projets récents
 
-| Projet | Description | Stack |
-|---|---|---|
-| **Urban Link** | Plateforme de gestion et de connectivité urbaine — cartographie temps réel, dashboard analytique, gestion des signalements | Next.js · NestJS · Prisma · Redis · Ory/Kratos · MinIO |
-| **LBC Scraper & Bypass** | Scraper furtif reproduisant les empreintes TLS/JA3 d'un navigateur réel pour contourner Cloudflare & DataDome | Node.js · curl-impersonate |
-| **HomeLab & Server Ops** | Infrastructure personnelle complète : virtualisation, monitoring, CI/CD, sécurité réseau | Proxmox · MikroTik · Docker · CrowdSec |
-| **Hypertube** | Streaming vidéo via BitTorrent avec transcodage FFmpeg à la volée | React · Node.js · MongoDB · FFmpeg |
-| **Matcha** | Application de rencontres — géolocalisation, chat temps réel, fame rating | React · Socket.io · MongoDB · JWT |
+Mes derniers dépôts publics (source-visible, sous licence propriétaire) :
 
-Plus de détails et de captures sur [nbeny.fr](https://nbeny.fr/#projets).
+#### 🏙️ [UrbanConnect](https://github.com/nbeny/UrbanConnct)
+
+Marketplace sociale de proximité fusionnant **réseau social, marketplace d'objets et de services** dans un même graphe de confiance. Feed social & messagerie temps réel (GraphQL Subscriptions), recherche géospatiale à confidentialité préservée (geohash + Haversine), paiements & KYC/KYB via Stripe Connect, livraison Sendcloud, géocodage souverain (BAN gouv.fr + Nominatim auto-hébergé, zéro appel Google).
+
+`NestJS 11` · `Next.js 16` · `GraphQL` · `Ory Kratos` · `Elasticsearch` · `Kafka` · `Temporal` · `Stripe`
+
+#### 🛰️ [AutoScanner](https://github.com/nbeny/AutoScanner)
+
+Plateforme de pentest / red-team mono-opérateur : découverte d'assets, orchestration sandboxée de ~100 outils Kali/ProjectDiscovery en conteneurs isolés, corrélation des findings inter-scanners, enrichissement CVE et reporting. Inclut **AutoHunt** — une boucle de chasse autonome où **Claude décide du prochain scanner** à lancer après chaque résultat (recon → énumération → vuln scan → injection).
+
+`Nx 20` · `NestJS 11` · `Prisma 6` · `PostgreSQL` · `BullMQ` · `Apollo GraphQL` · `React + Vite` · `Docker`
+
+#### 🤖 [AutoDevClaude](https://github.com/nbeny/AutoDevClaude)
+
+Orchestrateur autonome qui pilote le CLI `claude` en boucle pour construire un projet à partir d'une seule idée — sans intervention humaine après le lancement. Phase de brainstorm (2-3 approches → choix → design), puis boucle d'itération avec modes `create` / `feature` / `security` / `product` / `auto` (H24) et un mode `vault` (base de connaissances Obsidian).
+
+`NestJS` · `Prisma` · `Next.js` · `SSE` · `Docker` · `commander`
+
+#### 🛡️ [CrowdSec + WAF Coraza](https://github.com/nbeny/Crowdsec)
+
+Configuration complète et documentée pour protéger un VPS Debian (Traefik partagé derrière Cloudflare) avec **CrowdSec** et le **WAF Coraza (OWASP CRS v4)** : blocage L7 des IP malveillantes, inspection WAF de chaque requête (SQLi, XSS, LFI/RFI, RCE), et bannissement nftables au niveau OS pour SSH.
+
+`CrowdSec` · `Coraza` · `Traefik` · `nftables` · `Docker` · `OWASP CRS`
+
+#### 🦀 [SVC — Service Control](https://github.com/nbeny/RAT)
+
+Infrastructure de contrôle à distance : agents **Rust** en reverse connection vers un serveur central (Axum + PostgreSQL) avec dashboard web React. Workspaces séparés agent / serveur / tools et protocole partagé.
+
+`Rust` · `Axum` · `PostgreSQL` · `React` · `WebSocket` · `Docker`
 
 ---
 
