@@ -91,7 +91,7 @@ Formé à l'**École 42 Paris**, certifié **AWS Cloud Practitioner**. Je travai
 
 Mes derniers dépôts publics (source-visible, sous licence propriétaire) :
 
-#### 🏙️ [UrbanLink](https://hurbanlink.fr)
+#### 🏙️ [UrbanLink](https://urbanlink.fr)
 
 Marketplace sociale de proximité fusionnant **réseau social, marketplace d'objets et de services** dans un même graphe de confiance. Feed social & messagerie temps réel (GraphQL Subscriptions), recherche géospatiale à confidentialité préservée (geohash + Haversine), paiements & KYC/KYB via Stripe Connect, livraison Sendcloud, géocodage souverain (BAN gouv.fr + Nominatim auto-hébergé, zéro appel Google).
 
