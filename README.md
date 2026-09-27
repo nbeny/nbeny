@@ -115,6 +115,12 @@ Orchestrateur autonome qui pilote le CLI `claude` en boucle pour construire un p
 
 `NestJS` · `Prisma` · `Next.js` · `SSE` · `Docker` · `commander`
 
+#### 💼 [nbeny-sales](https://github.com/nbeny/nbeny-sales)
+
+Équipe commerciale virtuelle : **agents Claude** de recherche d'offres (freelance, CDI), prospection, matching et suivi, adossés à une CLI Node **sans aucune dépendance** (TypeScript exécuté nativement par Node 24). *Les agents sont les yeux, le code est la mémoire* : chaque fait exige une URL source, le score exclut les inconnues au lieu de les deviner, et aucun message ne part sans relecture humaine — les agents ne produisent que des brouillons.
+
+`TypeScript` · `Node 24` · `Claude Code agents` · `node:test` · `CLI`
+
 #### 🛡️ [CrowdSec + WAF Coraza](https://github.com/nbeny/Crowdsec)
 
 Configuration complète et documentée pour protéger un VPS Debian (Traefik partagé derrière Cloudflare) avec **CrowdSec** et le **WAF Coraza (OWASP CRS v4)** : blocage L7 des IP malveillantes, inspection WAF de chaque requête (SQLi, XSS, LFI/RFI, RCE), et bannissement nftables au niveau OS pour SSH.
