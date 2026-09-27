@@ -133,6 +133,18 @@ Infrastructure de contrôle à distance : agents **Rust** en reverse connection 
 
 `Rust` · `Axum` · `PostgreSQL` · `React` · `WebSocket` · `Docker`
 
+#### 🏛️ [HexaPolis](https://github.com/nbeny/HexaPolis)
+
+Monorepo d'ingestion des données publiques de l'Assemblée nationale : pipeline **bronze → silver → gold** (schémas Prisma dédiés), API GraphQL NestJS et front Next.js. Statistiques dérivées indexées vers Elasticsearch et exposées via des tableaux de bord Kibana.
+
+`NestJS` · `Next.js` · `Prisma` · `GraphQL` · `PostgreSQL` · `Elasticsearch` · `Turborepo`
+
+#### 📰 [cancerWeb](https://github.com/nbeny/cancerWeb)
+
+Plateforme éditoriale assistée par IA : pipeline de génération d'articles (recherche, rédaction, vérification, SEO, publication) et administration multi-utilisateurs. Authentification par cookies `httpOnly` rotatifs, origine unique en développement via reverse proxy Caddy.
+
+`NestJS` · `Next.js` · `GraphQL` · `Prisma` · `Redis` · `Caddy` · `zod`
+
 ---
 
 ### Formation & certifications
