@@ -180,13 +180,13 @@ Plateforme éditoriale assistée par IA : pipeline de génération d'articles (r
 ### Langages les plus utilisés
 
 <p>
-  <img alt="TypeScript 61%" src="https://img.shields.io/badge/TypeScript-61%25-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
-  <img alt="C 13%" src="https://img.shields.io/badge/C-13%25-A8B9CC?style=for-the-badge&logo=c&logoColor=black">
-  <img alt="Python 13%" src="https://img.shields.io/badge/Python-13%25-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img alt="TypeScript 65%" src="https://img.shields.io/badge/TypeScript-65%25-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
+  <img alt="Python 8%" src="https://img.shields.io/badge/Python-8%25-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img alt="C 7%" src="https://img.shields.io/badge/C-7%25-A8B9CC?style=for-the-badge&logo=c&logoColor=black">
 </p>
 <p>
-  <img alt="JavaScript 9%" src="https://img.shields.io/badge/JavaScript-9%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-  <img alt="C# 2%" src="https://img.shields.io/badge/C%23-2%25-512BD4?style=for-the-badge&logo=csharp&logoColor=white">
+  <img alt="JavaScript 7%" src="https://img.shields.io/badge/JavaScript-7%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+  <img alt="HTML 6%" src="https://img.shields.io/badge/HTML-6%25-E34F26?style=for-the-badge&logo=html5&logoColor=white">
   <img alt="Rust 1%" src="https://img.shields.io/badge/Rust-1%25-CE422B?style=for-the-badge&logo=rust&logoColor=white">
 </p>
 
