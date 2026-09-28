@@ -189,8 +189,15 @@ Plateforme éditoriale assistée par IA : pipeline de génération d'articles (r
   <img alt="HTML 6%" src="https://img.shields.io/badge/HTML-6%25-E34F26?style=for-the-badge&logo=html5&logoColor=white">
   <img alt="Rust 1%" src="https://img.shields.io/badge/Rust-1%25-CE422B?style=for-the-badge&logo=rust&logoColor=white">
 </p>
+<p>
+  <img alt="Shell 1%" src="https://img.shields.io/badge/Shell-1%25-89E051?style=for-the-badge&logo=gnubash&logoColor=black">
+  <img alt="C++ <1%" src="https://img.shields.io/badge/C++-%3C1%25-00599C?style=for-the-badge&logo=cplusplus&logoColor=white">
+  <img alt="HCL <1%" src="https://img.shields.io/badge/HCL-%3C1%25-844FBA?style=for-the-badge&logo=terraform&logoColor=white">
+</p>
 
-<sub>Calculé sur mes dépôts publics et privés (hors dépendances vendored).</sub>
+<sub>Aussi présents dans mes dépôts : Jinja, C#, CSS, Go, PHP, PLpgSQL, Dockerfile, RouterOS Script…</sub>
+
+<sub>Agrégat réel des octets par langage (API GitHub) sur 137 dépôts publics et privés, hors dépendances vendored (venvs, datasets, assets moteur).</sub>
 
 <p align="left">
   <img alt="Followers" src="https://img.shields.io/github/followers/nbeny?style=flat-square&label=Followers&color=2563eb">
