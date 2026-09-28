@@ -45,8 +45,17 @@ Formé à l'**École 42 Paris**, certifié **AWS Cloud Practitioner**. Je travai
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+
+**Systèmes & Robotique**
+
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![ROS 2](https://img.shields.io/badge/ROS_2-22314E?style=flat-square&logo=ros&logoColor=white)
+![PX4](https://img.shields.io/badge/PX4-03C75A?style=flat-square&logo=px4&logoColor=white)
+![Gazebo](https://img.shields.io/badge/Gazebo-FF6600?style=flat-square&logo=gazebo&logoColor=white)
+![ONNX Runtime](https://img.shields.io/badge/ONNX_Runtime-005CED?style=flat-square&logo=onnx&logoColor=white)
 
 **Data**
 
@@ -126,6 +135,18 @@ Orchestrateur autonome qui pilote le CLI `claude` en boucle pour construire un p
 Configuration complète et documentée pour protéger un VPS Debian (Traefik partagé derrière Cloudflare) avec **CrowdSec** et le **WAF Coraza (OWASP CRS v4)** : blocage L7 des IP malveillantes, inspection WAF de chaque requête (SQLi, XSS, LFI/RFI, RCE), et bannissement nftables au niveau OS pour SSH.
 
 `CrowdSec` · `Coraza` · `Traefik` · `nftables` · `Docker` · `OWASP CRS`
+
+#### 🛸 [Dronoto](https://github.com/nbeny/Dronoto)
+
+Drone autonome piloté par IA : cartographie 3D, exploration autonome de zones inconnues et liaison radio longue portée. Principe directeur — **la sécurité et le contrôle temps réel sont locaux et déterministes** (le drone vole serveur éteint, radio coupée, GPS perdu) ; l'intelligence et la supervision sont distantes et optionnelles. Localisation FAST-LIO2 + EKF2, carte OctoMap libre/occupé/**inconnu**, exploration par frontières → next-best-view.
+
+`C++` · `ROS 2 Jazzy` · `PX4 SITL` · `Gazebo` · `FAST-LIO2` · `GTSAM` · `ONNX Runtime` · `FastAPI` · `TimescaleDB/PostGIS`
+
+#### 🤖 [Roboto](https://github.com/nbeny/Roboto)
+
+Plateforme robotique mobile autonome open-source, **Rust-first**, bâtie autour de ROS 2 (budget matériel 300–500 €). Le cœur métier — état, contrôle, sécurité — est écrit en Rust et **ignore ROS 2, le matériel et tout runtime async** : le risque du binding ROS 2 est confiné à une seule crate remplaçable, et le cœur reste testable partout. Couche IA Python (vision, VLM, STT/TTS), dashboard Next.js.
+
+`Rust` · `ROS 2` · `robot-core / safety / hal` · `Pico 2 (MCU)` · `Node.js` · `Next.js` · `Python (IA)`
 
 #### 🦀 [SVC — Service Control](https://github.com/nbeny/RAT)
 
